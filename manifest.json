@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "name": "Ext Chrome",
+    "description": "Teste de extensão",
+    "author": "Geovani Brito",
+    "permissions": [
+        "contextMenus"
+      ],
+      "icons": {
+        "16": "icon.png"
+      },
+    "browser_action": {
+   	 "default_title": "Ext Chrome",
+   	 "default_popup": "index.html",
+   	 "default_icon": "icon.png"
+    },
+    "background": { 
+        "scripts": ["captura.js"]
+      }
+}
