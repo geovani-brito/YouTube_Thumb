@@ -1,6 +1,6 @@
 chrome.contextMenus.create({
   title: "Capturar thumbnail",
-  contexts: ["image", "video"],
+  contexts: ["all"],
   onclick: getVideoCod
 });
 
